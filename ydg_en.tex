@@ -1,0 +1,176 @@
+\documentclass[11pt,a4paper]{moderncv}
+
+% moderncv themes
+%\moderncvtheme[blue, roman]{casual}
+% optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+\moderncvtheme[blue]{classic}                % idem
+
+\usepackage[utf8]{inputenc}
+\usepackage{textcomp}
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+\recomputelengths                             % required when changes are made to page layout lengths
+
+% personal data
+\firstname{Denggao}
+\familyname{Yu}
+\title{Curriculum Vitae}
+\mobile{+86 15651811577}
+\email{yudenggao@163.com}
+%% \quote{``Do what you fear, and the death of fear is certain.''\\-- Anthony Robbins}
+
+%\phone{(312) 413-8265}                      % optional, remove the line if not wanted
+%\fax{312 996 1491}                          % optional, remove the line if not wanted
+%\photo[64pt]{avatar.jpg}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file;
+
+\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+
+%% \renewcommand*{\sectionfont}{\LARGE\sffamily\monospace\slshape}
+%% \renewcommand*\addressfont{\fontfamily{pzc}\selectfont}
+%% \renewcommand*\sectionfont{\fontfamily{pzc}\fontsize{20}{24}\selectfont}
+
+\begin{document}
+\maketitle
+
+\section{Education}
+\cventry{2013--Present}{MS in Signal and Information Processing, Supervisor: Prof. Yongming Huang}{School of Information Science and Technology, Southeast University}{}{}{}
+\cventry{2009--2013}{BA in Information Engineering}{School of Electronic and Information Engineering, Nanjing University of Aeronautics and Astronautics}{}{}{}
+
+%\section{Master thesis}
+%\cvline{title}{\emph{Title}}
+%\cvline{supervisors}{Supervisors}
+%\cvline{description}{\small Short thesis abstract}
+
+\section{Internship}
+\cventry{2013--present}{Assistant R\&D Engineer at ZTE Wavetone}{Protocol and Algorithm Research Department}{}{}{Designed and implemented related algorithms of PHY and MAC layer for IEEE 802.11aj project.}
+
+\section{Community}
+\cventry{Blog}{\url{http://riden001.com}}{My personal blog (Chinese)}{}{}{}
+\cventry{GitHub}{\url{https://github.com/Riden001}}{}{}{}{}
+\cventry{Job Bole}{\url{http://www.jobbole.com/members/riden/activity/}}{Member of Translation Team}{}{}{}
+
+\section{Project Experience}
+%% \subsection{Research Projects}
+
+\cventry{2013--present}
+{IEEE 802.11aj Project}
+{Parallel computing, Matlab, Wireless Communication, WLAN}
+{Startup Project}{}
+{Working with Bo Wu, Shimin Ma, Post-doc. Shiwen He, Prof. Yongming Huang, and etc. \\
+IEEE 802.11aj is the first IEEE wireless protocol of China, aimed at improving the transmission rate of the new generation WLAN communication
+system. I have been working as a Assistant R\&D Engineer in IEEE 802.11aj project, and responsible for designing and implementing most algorithms of the physical layer and part design of the MAC layer, including the modulation and demodulation modules, encoding and decoding modules, equalization and detection modules, parallel algorithm design for complex matrix inversion and matrix multiplication and etc.
+}
+
+\vspace*{0.2\baselineskip}
+\cventry{2012--2013}
+{Radarx}
+{C++, MFC, OpenGL}
+{Research Project}{}
+{Working with Mingming Wang, Sirui Zhang, Yingyuan Zhang and Prof. Minghai Pan. \\
+Radarx is aimed at developing a complete platform on which user could make radar simulation according to different application scenarios.
+We develop this software based on MFC and OpenGL, which provide a friendly UI. And based on OpenGL framework, it could simulate three-dimensional environments. I was the major contributor of this project, my work including designing and developing the UI, and realize the OpenGL module. Because of its innovation, our project obtained 2000 \textyen~innovation award of the school.
+}
+
+\vspace*{0.2\baselineskip}
+\cventry{2011}
+{Tankx}
+{C++, AI game engine}
+{Independent Project}{}
+{In collaboration with Mingming Wang and Long Wang. \\
+Based on the AI game engine, we developed several avoiding and attacking algorithms for our Tanks, then battled with other teams.
+}
+
+%% \cventry{2011--present}
+%% {AlgoTrading}
+%% {Go, Java}
+%% {}{}
+%% {An analyzing tool for offline trading strategy emulating. Data are parsed from TongDaXin stock trading software, I emulated and evaluated several trading strategies based on this project.}
+
+%% \cventry{2008}{GPGPU Optimization}{C++, CTM IL}{}{}{Research on GPGPU program optimization and platform features}
+
+%% \subsection{Course Projects}
+%% \cventry{2008}{Compiler for Tiger Language}{C, Flex, Bison}{}{}{Project for the course Compilers}
+
+%% \subsection{Other Projects}
+%% \vspace*{0.2\baselineskip}
+\cventry{2010}
+{Smith}
+{C++, MFC}
+{Independent Project}{}
+{
+A desktop application which could calculate the smith circle parameters according to input. It's applied as a teaching tool by our teacher.}
+
+\vspace*{0.2\baselineskip}
+\cventry{2010}
+{Sudoku}
+{C++}
+{Independent Project}{}
+{
+A simple application used to solve sudoku problem with a simple MFC UI.
+}
+
+%% \cventry{2010}
+%% {Computer System Engineering Teaching Assistant}{}{}{}
+%% {}
+
+
+% \cventry{2007}{Collaborative Multi-client Drawing System}{Java, RMI}{}{}{Project for Object-Oriented Programming course.}
+%% \cventry{2008}{Succour Administration System for Changzheng Community}{Java, JSP}{}{}{A simple web-based succour management system}
+%% \cventry{2007}{Train Ticket Booking System for Fudan University}{Java, JSP}{}{}{My first out-sourcing project}
+
+\section{Publications}
+\cventry{2014}
+{\textbf{Denggao Yu}, \textnormal{Zhaohua Lu, Shiwen He, Bo Wu, Yongming Huang, Lvxi Yang}}
+{Low Complexity Complex Matrix Inversion Method for MIMO Communication Systems}{(ChinaSip 2015)}
+{}{}{}
+
+\cventry{2014}
+{\textnormal{Shiwen He}, \textbf{Denggao Yu}, \textnormal{Yongming Huang, Haiming Wang, Lvxi Yang}}
+{Chinese Patent: A low complexity fast parallel matrix inversion method}{Papent No. 201410495246.0}
+{}{}{}
+
+\cventry{2014}
+{\textnormal{Shiwen He}, \textbf{Denggao Yu}, \textnormal{Yongming Huang, Haiming Wang, Lvxi Yang}}
+{Chinese Patent: A hardware device for parallel matrix inversion}{Papent No. 201410621516.8}
+{}{}{}
+
+\cventry{2014}
+{\textnormal{Yongming Huang}, \textbf{Denggao Yu}, \textnormal{Shiwen He, Haiming Wang, Lvxi Yang}}
+{Chinese Patent: A location aware based load balancing method for WLAN system}{ (In applying)}
+{}{}{}
+
+\section{Awards}
+\cventry{2014}{Most Excellent Intern of ZTE Wavetone Science and Technology Ltd}{}{}{}{}
+\cventry{2013}{Second Prize in National Postgraduate Mathematic Contest in Modeling}{}{}{}{}
+\cventry{2013}{First Prize in Basketball Competition of Southeast University}{}{}{}{}
+\cventry{2013}{Excellent Minister of Postgraduate Student Union of Southeast University}{}{}{}{}
+\cventry{2012}{Second Grade Scholarship for Graduates of NUAA}{}{}{}{}
+% \cventry{2009}{Third Grade People's Scholarship}{}{}{}{}
+%% \cventry{2007, 2008}{Second Grade Scholarship for Undergraduates}{}{}{}{}
+\cventry{2011}{Third Prize in NUAA Program Competition}{}{}{}{}
+\cventry{2010}{Merit Student of NUAA}{}{}{}{}
+% \cventry{2006}{Third Prize in Fudan Technology Contest}{}{}{}{}
+%\cventry{2005, 2004}{First Prize in National Olympiad in Informatics in Provinces}{}{}{}{}
+
+\section{Skills}
+\cventry{Languages}{C++=Matlab>MFC=OpenGL}{}{}{}{}
+%\cventry{Kernels}{Linux, Xen, Android}{}{}{}{}
+%% \cventry{Application Dev}{Ruby on Rails, iOS development}{}{}{}{}
+\cventry{English}{CET-6 514}{fluent in spoken and written English, also a translator of IT community Bole Job}{}{}{}
+\cventry{Games}{NBA 2K (Career Mode)}{}{}{}{}
+
+% \closesection{}                   % needed to renewcommands
+% \renewcommand{\listitemsymbol}{-} % change the symbol for lists
+
+%\section{Extra 1}
+%\cvlistitem{Item 1}
+%\cvlistitem{Item 2}
+%\cvlistitem[+]{Item 3}            % optional other symbol
+
+%\section{Extra 2}
+%\cvlistdoubleitem[\Neutral]{Item 1}{Item 4}
+%\cvlistdoubleitem[\Neutral]{Item 2}{Item 5}
+%cvlistdoubleitem[\Neutral]{Item 3}{}
+
+\end{document}
